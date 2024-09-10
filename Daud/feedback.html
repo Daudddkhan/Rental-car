@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <!-- logo -->
+    <a class="navbar-brand fs-4" href="home.html">DK CARS</a>
+    <!-- toggler button -->
+    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- sidebar -->
+    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+     <!-- sidebarheader -->
+      <div class="offcanvas-header text-white border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DK CARS</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!-- sidebar body -->
+      <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="car.html">Cars</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        
+        </ul>
+       <!-- login / signup -->
+        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+          <a href="login.html" class="text-white">Login</a>
+          <a href="ragister.html" class="text-white text-decoration-none px-3 py-1 rounded-4"
+          style="background-color: #f94ca4"
+          >sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar end  -->
+  <section id="categories">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./Image/par-11.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">James Anderson</h5>
+                  <p class="card-text">Excellent service! The booking process was smooth, and the car was in top-notch condition. Will definitely use this service again.</p>
+                </div>
+              </div>
+             
+              </div>
+              <div class="col-md-4"><div class="card">
+                <img src="./Image/par-12.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Robert Taylor</h5>
+                  <p class="card-text">"I had a fantastic experience! The customer support team was very helpful, and I found the perfect car for my trip. Highly recommended.</p>
+                </div>
+              </div>
+             
+              </div>
+              <div class="col-md-4"><div class="card">
+                <img src="./Image/par-14.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Emily Davis</h5>
+                  <p class="card-text">Quick and easy! I was able to rent a car in minutes, and the vehicle was well-maintained. Five stars.</p>
+                </div>
+              </div>
+             
+              </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4"><div class="card">
+                <img src="./Image/par-13.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> Michael Johnson</h5>
+                  <p class="card-text">Great selection of cars and very affordable rates. I was impressed by the cleanliness and overall condition of the vehicle. Superb service</p>
+                </div>
+              </div>
+             
+              </div>
+              <div class="col-md-4"><div class="card">
+                <img src="./Image/par-115.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">David Miller</h5>
+                  <p class="card-text">The whole process was hassle-free, from booking to returning the car. I appreciated the transparency in pricing with no hidden fees.</p>
+                </div>
+              </div>
+             
+              </div>
+              <div class="col-md-4"><div class="card">
+                <img src="./Image/par-16.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sarah Wilson</h5>
+                  <p class="card-text">Amazing experience! The website was user-friendly, and the rental rates were competitive. The car was in excellent condition, making my trip stress-free.</p>
+                </div>
+              </div>
+             
+              </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+<footer class="footer  mt-3 py-4 bg-secondary">
+  <div class="container text-center">
+      <p>&copy; 2024 DK CARS. All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- footer end  -->
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

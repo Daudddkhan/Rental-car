@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.col-md-7{
+    padding: 20px;
+}
+.col-md-5{
+    /* background-color: lightskyblue; */
+    color: white;
+    padding: 20px;
+}
+.bi{
+    font-size: 20px;
+}
+.d-flex p{
+    font-size: 18px;
+    padding-left: 18px;
+}
+.form-control{
+    height: 52px;
+    border: 1px solid black;
+}

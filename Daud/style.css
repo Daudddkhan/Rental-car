@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    /* background-color:#0E5386; */
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255, 255,255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.c-item{
+ height: 480px;
+
+}
+.c-img{
+height: 100%;
+object-fit: cover;
+}
+
+
+
+
+.card1234 img {
+    height: 100%;
+    object-fit: cover;
+}
+.container123{
+    position: relative;
+} 
+.container123 img{
+    width: 100%;
+    height: auto;
+}
+.container123 .btn123{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    cursor: pointer;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand fs-4" href="home.html">DK CARS</a>
+      <!-- toggler button -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- sidebar -->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+       <!-- sidebarheader -->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DK CARS</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <!-- sidebar body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="car.html">Cars</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          
+          </ul>
+         <!-- login / signup -->
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <a href="login.html" class="text-white">Login</a>
+            <a href="ragister.html" class="text-white text-decoration-none px-3 py-1 rounded-4"
+            style="background-color: #f94ca4"
+            >sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end  -->
+
+  <!-- carousel -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="./Image/car-1.jpeg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="display-1 mt-5  fw-bolder text-capitalize ">Best rental car in your location</h5>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./Image/car-23.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="display-1 mt-5  fw-bolder text-capitalize">Your ultimate driving exprince start here </h5>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./Image/car-31.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption">
+          <h5 class="display-1 mt-5  fw-bolder text-capitalize ">Your perfect ride just a few clicks away </h5>
+          <a href="car.html"><button class="btn btn-primary ">Book Now</button></a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel end  -->
+
+  <!-- card -->
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4"><div class="card card1234">
+            <img src="./Image/car-bugati.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bugati Chiron</h5>
+              <p class="card-text">0-100km/h in 2.4 sec <br> 1,500 horsepower</p>
+              <a href="#" class="btn btn-primary">$110.00 /Day</a>
+            </div>
+          </div>
+         
+          </div>
+
+          <div class="col-md-4"><div class="card card1234">
+            <img src="./Image/car-ferrari.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ferrari 488 Spider</h5>
+              <p class="card-text">0-100km/h in 3.0 sec <br> 661 horsepower</p>
+              <a href="#" class="btn btn-primary">$90.00/Day</a>
+            </div>
+          </div>
+         
+          </div>
+       
+          <div class="col-md-4"><div class="card card1234">
+            <img src="./Image/car-lambo1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lamborgini Huracan performante</h5>
+              <p class="card-text">0-100km/h in 2.9 sec <br>5.2L V10 engine with 640 horsepower</p>
+              <a href="#" class="btn btn-primary">$100.00/Day</a>
+            </div>
+          </div>
+         
+          </div>
+    </div>
+</div>
+<div class="container d-flex justify-content-center align-items-center mt-3">
+  <button class="btn btn-primary"><a href="car.html" class="text-white text-decoration-none">See More</a></button>
+</div>
+<!-- footer -->
+<footer class="footer  mt-3 py-4 bg-secondary">
+  <div class="container text-center">
+      <p>&copy; 2024 DK CARS. All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- footer end  -->
+     
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
